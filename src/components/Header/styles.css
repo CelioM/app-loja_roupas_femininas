@@ -1,0 +1,63 @@
+.header-main {
+    color: hsla(0, 20%, 99%, 0.932);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "topbar topbar"
+                         "texto img "
+                         "sidebar sidebar";
+    background: rgb(0, 0, 53);
+}
+.title-header{
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.title-header h1{
+    grid-area: texto;
+    font-size: 50px;
+}
+.title-header h2 {
+    grid-area: texto;
+    margin-top: 25px;
+    margin-left: -15px;
+    font-size: 30px;
+}
+.header-main svg {
+    grid-area: img;
+}
+.topbar {
+    grid-area: topbar;
+}
+.sidebar {
+    grid-area:sidebar;
+}
+svg {
+    height: 400px;
+    width: 400px;
+}
+
+.top-bar ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 1000px;
+
+}
+.top-bar li {
+    padding: 10px;
+    border-radius: 5px solid;
+    margin-right: 10px;
+    color: black;
+    background: white;
+    border-radius: 5px;
+}
+.side-bar {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
