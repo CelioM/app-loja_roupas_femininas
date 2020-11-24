@@ -7,7 +7,7 @@ const Header = () => (
     <div className='header-main'>
         <div className='title-header'>
             <h1>Fashion Passion</h1>
-            <h2>Fashion for Modern Womans</h2>
+            <h2>Fashion for Modern Womans.</h2>
         </div>
             
         <div className='sidebar'>
